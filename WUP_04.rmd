@@ -1,6 +1,6 @@
 ---
 title: "WUP_04"
-author: "Teresa Juan!"
+author: "Teresa Juan"
 date: "June 2, 2022"
 output:
   html_document:
@@ -11,8 +11,10 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
+GSScsv <- read.csv("GSScsv.csv") 
 
 ```
+
 
 # Introduction
 
