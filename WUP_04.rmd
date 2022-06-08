@@ -52,7 +52,7 @@ What we see in the box plot is that the LT HIGHT SCHOOL is below JUNIOR COLLEGE,
 ```{r}
 favstats(WORDSUM~DEGREE,data=GSScsv)
 ```
-As we make an observation on the data we can see that there is a difference in the mean of LT HIGHT SCHOOL and GRADUATE telLing us that there more likely to be different as we run other test. We can also see that LT HIGH SCHOOL on Q3 is lower at 8.25 and GRADUATE its Q3 is at 11.00 quartile. meaning that those two boxes will not intersect with each other.
+As we make an observation on the data we can see that there is a difference in the mean of LT HIGHT SCHOOL and GRADUATE showing us that there more likely to be different as we run other test. We can also see that LT HIGH SCHOOL on Q3 is lower at 8.25 and GRADUATE its Q3 is at 11.00 quartile. meaning that those two boxes will not intersect with each other.
 
 ## Inferential Results
 
