@@ -78,3 +78,4 @@ As we look at the interval of negative numbers on the left side we see that HIGH
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In conclusion in order for us to find out if there is any difference betwen the level of schooling degrees we begin by doing our plot box. there we  in order for us to find the difference between these tree groups we need to run the TukeyHSD test.  
