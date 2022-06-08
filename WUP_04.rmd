@@ -64,11 +64,14 @@ summary.aov(model1)
 ```
 The chances of see something like this, if there wasn't any difference between the means of all these five different subgroups is 2.36 out of 10,000. This test shows us there is a difference between these subgroups.
 
+Now that we got our P valuw we want to find out wich category is actualy different from which category and to do this we are going to use the sequence of T-test using the TukeyHSD.
+
 ```{r}
 #we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
 par(mar = c(3, 16.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
+
 
 # Discussion and Conclusion
 
