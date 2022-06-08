@@ -72,6 +72,7 @@ par(mar = c(3, 16.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
+As we look at the interval of negative numbers on the left side we see that HIGHT SCHOOL GRADUATE and LT HIGHT SCHOOL GRADUATE don't cross over the line meaning these two sets are different from the other groups. we also see that the HIGHT SCHOOL GRADUATE AND LT HIGHT SCHOOL-JUNIORCOLLEGE almost meet at  intevals line so those two are a little different.
 
 # Discussion and Conclusion
 
