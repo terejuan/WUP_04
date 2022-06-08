@@ -43,7 +43,7 @@ basicCN <- ggplot(GSScsv,aes(x=DEGREE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
-What we see in the box plot is that the LT HIGHT SCHOOL is below JUNIOR COLLEGE, GRADUATE, AND BACHELOR. But we also see that there is some similarities between LT HIGH SCHOOL and HIGHT SCHOOL DEGREE, If we would align them they would bump in to each other. as we look at boxes we can see there are different. 
+What we see in the box plot is that the LT HIGHT SCHOOL is below JUNIOR COLLEGE, GRADUATE, AND BACHELOR. But we also see that there is some similarities between LT HIGH SCHOOL and HIGHT SCHOOL DEGREE, If we would align them they wouldn’t bump in to each other. as we look at boxes we can see they are different. 
 
 ### Numerical Descriptive Results
 
@@ -72,10 +72,10 @@ par(mar = c(3, 16.7, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-As we look at the interval of negative numbers on the left side we see that HIGHT SCHOOL GRADUATE and LT HIGHT SCHOOL GRADUATE don't cross over the line meaning these two sets are different from the other groups. we also see that the HIGHT SCHOOL GRADUATE AND LT HIGHT SCHOOL-JUNIORCOLLEGE almost meet at  intevals line so those two are a little different.
+As we look at the interval of negative numbers on the left side we see that HIGHT SCHOOL GRADUATE and LT HIGHT SCHOOL GRADUATE don't cross over the line meaning these two sets are different from the other groups. we also see that the HIGHT SCHOOL GRADUATE AND LT HIGHT SCHOOL-JUNIOR COLLEGE almost meet at  intevals line so those two are a little different.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-In conclusion in order for us to find out if there is any difference betwen the level of schooling degrees we begin by doing our plot box. there we  in order for us to find the difference between these tree groups we need to run the TukeyHSD test.  
+In conclusion in order for us to find out if there is any difference between the level of schooling degrees we begin by doing our plot box. There we saw the WORDSOM that the LT HIGH SCHOOL and GRADUATE that if you alight them in the same line LT HIGHT SCHOOL would be completely underneath the GRADUATE, meaning there is a difference. Then we ran our date and we see that the MEAN of the GRADUATE is 10.09 and the LT HIGHT SCHOOL 7.75  are different. And as we did our P value we got a rely  small number 2.36, stating that in fact there is a difference but we needed to find out the difference between the other groups so we ran a tukeyHSD test. In order for us to find the difference between these tree groups we need to run the TukeyHSD test. The test showed us there is a difference between HIGHT SCHOOL and GRADUATES and LT LIGHT HIGHT SCHOOL by looking at the interval line they don't reach to 0 meaning everytime the interval line don't reach in fact there is a difference.
